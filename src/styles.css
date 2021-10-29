@@ -1,0 +1,104 @@
+*{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+body {
+  background-color: black;
+  margin: 0;
+}
+.LOADING {
+  margin-top:none;
+  width: 80%;
+ margin-left: 100px; 
+ margin-bottom: 700px
+}
+
+h3 {
+  padding-left: 2 px;
+}
+
+button {
+  color: black;
+  font-weight: 600;
+  float: right;
+  border-radius: 5px;
+  border: none;
+  background-color: cyan;
+  padding: 12px 25px;
+}
+button:hover {
+  transition: 200ms;
+  scale: 2.5;
+  background-color: red;
+  color: white;
+}
+
+.column1 {
+  height: 100%;
+  float: left;
+  width: 90%;
+}
+.column2 {
+  height: 100%;
+  float: left;
+  width: 10%;
+}
+.column3 {
+  float: left;
+  width: 33%;
+}
+.row {
+  height: 50px;
+  padding: 20px 50px 0px 30px;
+}
+
+.container {
+  background-color: black;
+}
+
+.container2 {
+  margin-left: 100px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+h2 {
+  color: white;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.profile {
+  border: 2px solid white;
+  box-shadow: 0 8px 16px 0 cyan;
+  max-width: 300px;
+  margin: 20px 5px;
+  text-align: center;
+  font-family: arial;
+  padding: 20px;
+  border-radius: 18px;
+  background-color: cyan;
+}
+
+.profile:hover {
+  transition: 400ms;
+  box-shadow: 0 8px 16px 0 red;
+  transform: translateY(-3px);
+  background-color: red;
+  color: yellow;
+}
+.name {
+  font-size: 25px;
+  font-weight: bold;
+}
+.email {
+  color: black;
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+.id {
+  background-color: white;
+  color: black;
+}
